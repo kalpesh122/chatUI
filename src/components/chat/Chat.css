@@ -1,0 +1,19 @@
+@media only screen and (max-width: 600px) {
+    .responsive {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .participant_comp {
+        margin-left: 1rem;
+    }
+
+    .participant_comp, .message_comp {
+        flex-basis: 100%;
+        width: 100%;
+        margin-bottom: 1.2rem;
+    }
+
+}
